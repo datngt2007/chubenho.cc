@@ -5,14 +5,14 @@ function register() {
   let email = document.getElementById("email").value;
   let pas = document.getElementById("pas").value;
   if ((name == "") & (email == "") & (pas == "")) {
-    alert("Vui lòng điền đầy đủ thông tin");
+    alert("Please fill in the information");
     return false;
   } else {
     if (pas.length < 6 || pas.length >= 20) {
-      alert("Mật khẩu quá ngắn phải điền trên 6 ký tự");
+      alert("Passwords that are too short must be filled in more than 6 characters");
       return false;
     } else {
-      alert("Chúc mừng bạn đã điền đủ thông tin");
+      alert("Passwords that are too short must be filled in more than 6 ");
       // setTimeout(function() { location.href ="signin.html"}, 3000);
     }
   }
